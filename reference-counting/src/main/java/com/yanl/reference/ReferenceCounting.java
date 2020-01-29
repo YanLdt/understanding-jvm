@@ -12,7 +12,7 @@ public class ReferenceCounting {
     private static final int _1MB = 1024 * 1024;
 
     /**
-     * 占内存  验证是否被回收过
+     * 占内存  验证是否被回收
      */
     private byte[] bigSize = new byte[2 * _1MB];
 
